@@ -69,7 +69,11 @@
                 <groupId>org.hdrhistogram</groupId>
                 <artifactId>HdrHistogram</artifactId>
                 <version>${hdrhistogram.version}</version>
-		     <distributionManagement>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
+   <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
@@ -81,12 +85,6 @@
 	      <url>http://13.234.78.160:8083/dev/repository/secondproject-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-    
-   
-
     <build>
         <pluginManagement>
             <plugins>
